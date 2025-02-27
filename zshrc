@@ -31,4 +31,4 @@ else
 fi
 
 # Set prompt
-PS1="%~:"
+PS1="%~:) "
