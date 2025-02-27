@@ -29,3 +29,6 @@ if [ -f "$HOME/.exportsrc" ]; then
 else
     print "${HOME}/.exportsrc not found".
 fi
+
+# Set prompt
+PS1="%~:"
