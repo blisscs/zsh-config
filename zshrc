@@ -123,6 +123,6 @@ HISTFILE=~/.zsh_history
 # Configure direnv
 eval "$(direnv hook zsh)"
 # Enable google cloud integration on arch linux if file exists
-if [-f "/etc/profile.d/google-cloud-cli.sh"]; then
+if [ -f "/etc/profile.d/google-cloud-cli.sh" ]; then
     source /etc/profile.d/google-cloud-cli.sh
 fi
